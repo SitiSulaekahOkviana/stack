@@ -71,7 +71,7 @@ int main() {
                 cin>>node.no_punggung;
                 cout << "Masukkan Nama			 : ";
                 cin.ignore(1);
-                cin.getline(node.nama,100);
+                cin.getline(node.nama,50);
                 cout << "Masukkan Posisi		: ";
                 cin.getline(node.posisi,20);
                 stack.push(node.no_punggung, node.nama, node.posisi);
